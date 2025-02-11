@@ -31,6 +31,7 @@
   }
 
   #lefteye {
+    background-color: antiquewhite;
     position: absolute;
     left: 60%;
     top: 20%;
@@ -68,7 +69,7 @@
     height: 5%;
   }
 
-  /**#nose {
+  #nose {
     position: absolute;
     left: 45%;
     top: 50%;

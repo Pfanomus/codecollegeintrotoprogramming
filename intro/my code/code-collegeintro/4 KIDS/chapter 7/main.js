@@ -19,7 +19,7 @@ while (remainingLetters > 0) {
     console.log(word);
     alert(answerArray.join(" "));
     // Get a guess from the player
-    var guess = prompt("Guess what word is. " + word.toLocaleUpperCase());
+    var guess = prompt("Guess what word is. " + word.toUpperCase());
     if (guess === null) {
         // Exit the game loop
         break;
@@ -35,6 +35,7 @@ while (remainingLetters > 0) {
         }
     }
 }
-// Show the answer and congratulate the player
+// \Show the answer and congratulate the player
 alert(answerArray.join(" "));
 alert("Good job! The answer was " + word);
+
